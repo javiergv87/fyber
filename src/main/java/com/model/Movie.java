@@ -9,6 +9,11 @@ public class Movie {
 
     private Float rating;
 
+    /**
+     * Constructor
+     * @param title
+     * @param rating
+     */
     public Movie(final String title, final Float rating) {
         this.title=title;
         this.rating=rating;
